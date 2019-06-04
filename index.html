@@ -23,29 +23,18 @@ div.scrollmenu a:hover {
 </head>
 
 <body>
-<button onclick="scrollWin(0, 50)">Scroll down</button><br><br>
+  <button onclick="scrollWin(0, -1000)">Home</button>
 
-<button onclick="scrollWin(0, -50)">Scroll up</button><br><br>
+  <button onclick="scrollWin(0, 100)">About</button>
 
-<button onclick="scrollWin(100, 0)">Scroll right</button><br><br>
-
-<button onclick="scrollWin(-100, 0)">Scroll left</button><br><br>
+  <button onclick="scrollWin(0, 250)">Weekly Report</button>
 
 <script>
-function scrollWin(x, y) {
-    window.scrollBy(x, y);
-}
-</script>
-<!--
-  <button onclick="scroll(0, -100)"> Home </button>
-  <button onclick="scroll(0,50)"> About </button>
-  <button onclick="scroll(0,50)"> Weekly Reports </button>
+  function scrollWin(x, y) {
+      window.scrollBy(x, y);
+  }
 
-  <script>
-  function scroll(i, j) {
-    window.scrollBy(i, j);
-  } -->
-  </script>
+</script>
 </body>
 
 <body bgcolor = "Orchid">
