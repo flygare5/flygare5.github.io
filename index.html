@@ -19,15 +19,21 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #777;
 }
+
+button {
+  position: fixed;
+}
+
 </style>
 </head>
 
 <body>
+
   <button onclick="scrollWin(0, -1000)">Home</button>
 
-  <button onclick="scrollWin(0, 100)">About</button>
+  <button onclick="scrollWin(0, 500)">About</button>
 
-  <button onclick="scrollWin(0, 250)">Weekly Report</button>
+  <button onclick="scrollWin(0, 1500)">Weekly Report</button>
 
 <script>
   function scrollWin(x, y) {
