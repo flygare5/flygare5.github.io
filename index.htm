@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+</style>
+</head>
+
+<div class="scrollmenu">
+  <a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#Mentors">Mentors</a>
+  <a href="#Weekly Report">Weekly Report</a>
+</div>
+
+
+
+<body bgcolor = "White">
+
+<center><h1 id = "Home" style="font-size:100px; font-family: impact">Lucas Flygare: REU Program</h1></center>
+
+<center><h3 id = "About" style = "font-size:75px;"> About me </h3></center>
+
+<center><p style = "width: 700px; font-size: 60px"> This is a test to check if the width of the paragraph is going to be correct. This is going to be a paragraph about me and about to program. </p> </center>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden; 
+  border: 1px solid #ccc;
+  background-color: #f1f1f;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  align: center;
+  background-color: inherit;
+  float: left;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  align: cn
+  width: 700px;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<h2 id = "Weekly Report">Weekly Reports</h2>
+<p>Select the weekly report that you would like to view.</p>
+
+<center><div class="tab">
+  <button class="tablinks" onclick="openCity(event, '1')">Week 1</button>
+  <button class="tablinks" onclick="openCity(event, '2')">Week 2</button>
+  <button class="tablinks" onclick="openCity(event, '3')">Week 3</button>
+  <button class="tablinks" onclick="openCity(event, '4')">Week 4</button>
+  <button class="tablinks" onclick="openCity(event, '5')">Week 5</button>
+  <button class="tablinks" onclick="openCity(event, '6')">Week 6</button>
+  <button class="tablinks" onclick="openCity(event, '7')">Week 7</button>
+  <button class="tablinks" onclick="openCity(event, '8')">Week 8</button>
+  <button class="tablinks" onclick="openCity(event, '9')">Week 9</button>
+  <button class="tablinks" onclick="openCity(event, '10')">Week 10</button>
+	</div></center>
+
+<div id="1" class="tabcontent">
+  <center> <h3>Week 1</h3>
+  <p style = "width: 600px;" >
+  	  The first week was great and we spent most of the time getting situated.
+	  We started on Tuesday May 28th by getting our accounts and information
+	  situated. We meet the rest of the mentors and participants in the program and
+	  got started working on our assignments. We read an article about how to read a
+	  research paper and then got started learning about Probabalistic Road Maps. We
+	  spent the rest of Tuesday reading the articles and answering the discussion
+	  questions which we then finished on Wednesday. On Thursday May 30th we got
+	  started working on the basic design of our websites. We then went to lunch and
+	  when we came back we began downloading and running the vizmo and PMPL files.
+	  On Friday May 31 we spent the morning working with the XML files and changing
+	  the paramaters to better understand the methods. We looked at different PMPL
+	  algorithms such as Uniform Random Free, Gauss, OBPRM and MAPRM and how
+	  changing certain paramaters would increase runtime, nodes and collisions. We
+	  then had a meeting run by Diane to discuss the information in the first part
+	  of the crash course. This discussion marked the end of the first lesson.
+  </p>
+</div></center>
+
+<center>
+<div id="2" class="tabcontent">
+	<h3>Week 2</h3>
+  <p style = "width: 600px;">We finished module 2 on Monday June 2nd where we compiled and ran code in PMPL 
+	    and vizmo. We analyzed the CfgExamples.xml to betterunderstand the values that 
+	    were being passed in and how to set up our own functions. We strarted module three 
+	    on Tuesday June 3rd where we read an article on configuration space. We then 
+	    programmed our own motion planning strategy. In this class we implemented functions 
+	    such as ParseXML, Print, Initialize, Run, Finalize, GenerateNode and ConnectNode. 
+	    On Wednesday June 4th we read an article on Sampling based Algorithms such as EST's 
+	    and RRT's. We then began coding our own EST sampling algorithm. Writing it took the 
+	    rest of Wednesday and all of Thursday June 5th. We then spent Friday June 6th figuring 
+	    out ways that we could improve our EST algorithm and make it better. I noticed that a 
+	    lot of the random nodes weren't helpul interms of quickly finding a path so I used a 
+	    function that would "randomly" find nodes that were closer to the goal configuration 
+	    based on its topological distance. I used topological distance instead of euclidean 
+	    to account for obstacles. Next week we are going to finish the crash course and get 
+	    started on our research projects. 
+	
+	     Monday - Finished module 2 where we ran and recorded data in PMPL. 
+	     Tuesday - Article on configuration space and coding our own PMPL class MyStrategy. 
+	     Wednesday - Article reading then lunch and then started working on the code MyEST. 
+	     Thursday - Finished working on the code and analyzed the results in vizmo. Continued the readings. 
+	     Friday - Worked on improvbing the EST code. Had a
+	     meeting about the past modules. Worked on our websites.
+  </p> 
+</div></center>
+
+<div id="3" class="tabcontent">
+  <h3>Week 3</h3>
+  <p> Monday - Morning, read the OBPRM article and answered module 5 questions. <br>
+  Read the grad students articles and annotated them. <br>
+  Tuesday - Read the grad students article on proteins. Lunch. Ran our EST code against different paths and 
+  wrote our websites. We then had a meeting to discuss the projects that we might work on.<br>
+  </p>
+</div>
+
+<div id="4" class="tabcontent">
+  <h3>Week 4</h3>
+  <p>This is the third week.</p>
+</div>
+
+<div id="5" class="tabcontent">
+  <h3>Week 5</h3>
+  <p>This is the third week.</p>
+</div>
+
+<div id="6" class="tabcontent">
+  <h3>Week 6</h3>
+  <p>This is the sixth week.</p>
+</div>
+
+<div id="7" class="tabcontent">
+  <h3>Week 7</h3>
+  <p>This is the seventh week.</p>
+</div>
+
+<div id="8" class="tabcontent">
+  <h3>Week 8</h3>
+  <p>This is the eight week.</p>
+</div>
+
+<div id="9" class="tabcontent">
+  <h3>Week 9</h3>
+  <p>This is the ninth week.</p>
+</div>
+
+<div id="10" class="tabcontent">
+  <h3>Week 10</h3>
+  <p>This is the tenth week.</p>
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click()
+</script>
+
+</body>
+</html> 
+
