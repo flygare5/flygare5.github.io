@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+</style>
+</head>
+
+<div class="scrollmenu">
+  <a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#Mentors">Mentors</a>
+  <a href="#Projects">Projects</a>
+  <a href="#Weekly Report">Weekly Report</a>
+</div>
+
+
+
+<body bgcolor = "MediumPurple">
+
+<center><h1 id = "Home" style="font-size:60px; font-family: impact">Lucas Flygare: REU Program</h1></center>
+
+<picture>
+	<center><img src = "http://uihistories.library.illinois.edu/virtualtour/engineering/siebel/39893_l.jpg" 
+		     alt = "Siebel Center" style = "width:auto">
+</picture> </center>
+
+<center><h3 id = "About" style = "font-size: 40px;"> About me: </h3></center>
+
+<center><p style = "width: 700px; font-size: 30px"> This is a test to check if the width of the paragraph is going to be correct. This is going to be a paragraph about me and about to program. </p> </center>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden; 
+  border: 1px solid #ccc;
+  background-color: #f1f1f;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  align: center;
+  background-color: inherit;
+  float: center;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 20px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  align: cn
+  width: 700px;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<center><h3 id = "Projects" style = "font-size: 40px">Projects</h3></center>
+<center><p style = "width: 800px; font-size: 30px">
+	For my project I am creating and testing different environments for interaction biasing. Robots have the ability to interact with 
+each other. I am writing test cases and creating environments that show that we have the ability to operate around
+these interactions based off external factors. If one of the interactions involves going through a storm then we want to avoid that storm. 
+We are able to do this by changing the weight of certain edges to prevent it from going in that direction. The various environments that 
+I have created all show that having the delivery interaction is the most ideal path but by enforcing this "bias" it takes an alternate path 
+that results in the same goal configuration. The objective is to show that the bias causes the robot to take a more difficult path when 
+the interaction would be quicker/better. <br></center>
+
+<h2 id = "Weekly Report">Weekly Reports</h2>
+<p>Select the weekly report that you would like to view.</p>
+
+<center><div class="tab">
+  <button class="tablinks" onclick="openCity(event, '1')" id = "defaultOpen">Week 1</button>
+  <button class="tablinks" onclick="openCity(event, '2')">Week 2</button>
+  <button class="tablinks" onclick="openCity(event, '3')">Week 3</button>
+  <button class="tablinks" onclick="openCity(event, '4')">Week 4</button>
+  <button class="tablinks" onclick="openCity(event, '5')">Week 5</button>
+  <button class="tablinks" onclick="openCity(event, '6')">Week 6</button>
+  <button class="tablinks" onclick="openCity(event, '7')">Week 7</button>
+  <button class="tablinks" onclick="openCity(event, '8')">Week 8</button>
+  <button class="tablinks" onclick="openCity(event, '9')">Week 9</button>
+  <button class="tablinks" onclick="openCity(event, '10')">Week 10</button>
+	</div></center>
+
+<div id="1" class="tabcontent">
+  <center> <h3>Week 1</h3>
+  <p style = "width: 600px;" >
+  	  The first week was great and we spent most of the time getting situated.
+	  We started on Tuesday May 28th by getting our accounts and information
+	  situated. We meet the rest of the mentors and participants in the program and
+	  got started working on our assignments. We read an article about how to read a
+	  research paper and then got started learning about Probabalistic Road Maps. We
+	  spent the rest of Tuesday reading the articles and answering the discussion
+	  questions which we then finished on Wednesday. On Thursday May 30th we got
+	  started working on the basic design of our websites. We then went to lunch and
+	  when we came back we began downloading and running the vizmo and PMPL files.
+	  On Friday May 31 we spent the morning working with the XML files and changing
+	  the paramaters to better understand the methods. We looked at different PMPL
+	  algorithms such as Uniform Random Free, Gauss, OBPRM and MAPRM and how
+	  changing certain paramaters would increase runtime, nodes and collisions. We
+	  then had a meeting run by Diane to discuss the information in the first part
+	  of the crash course. This discussion marked the end of the first lesson.
+  </p>
+</div></center>
+
+<center>
+<div id="2" class="tabcontent">
+	<h3>Week 2</h3>
+  <p style = "width: 600px;">
+	We just completed our second week and it looks like we are wrapping up the crash course.  
+	<br><br>
+	Monday, June 3rd <br>
+	We finished up module two where we started running and recording data in PMPL and vizmo. We looked at
+	CfgExamples.xml to better understand how values and different parameters were being passed in and how
+	to set up our own functions. 
+	<br><br>
+	Tuesday, June 4th <br>
+	We started module 3 where we read an article on configuration space. We then started programming our own
+	Motion Planning Strategy called MyStrategy. This class served as a base class that we would use to create
+	other motion planning algorithms. In MyStrategy we implemented and used functions ParseXML, Print, Initialize,
+	Run, Finalize, GenerateNode and ConnectNode. These concepts would all be used in later classes. 
+	<br><br>
+	Wednesday / Thursday June 4th - 5th<br>
+	We started module four where we read an article on Sampling Based Algorithms such as EST's and RRT's. We began
+	implementing a class for the EST sampling algorithm, writing the code from module three served as a good template
+	for writing our EST class. Writing it took the rest of Wednesday and then we worked on it all of Thursday June 5th.
+	We impl	emented functions such as GrowTree and TryMerge which would from the trees from the initial start and goal 
+	nodes and then attempt to merge them together.
+	<br><br>
+	Friday, June 6th <br>
+	We implemented functions in our EST to make our algorithm faster/better. I noticed that a lot of the random nodes
+	that were being created in the EST weren't helping in terms of finding a path to the goal (they were randomly put
+	farther away). So I implemented a function that would only select "random" nodes that were closer to the goal 
+	configuration based on the topological distance. I used topological distance instead of euclidean to account for obstacles. 
+	<br><br>
+	Next week we are going to complete the crash course and get started on our research projects. The program has been great and
+	Diane and James have been very helpful answer questions and talking through concepts.
+	<br><br><br><br><br>
+
+
+  	    We finished module 2 on Monday June 2nd where we compiled and ran code in PMPL 
+	    and vizmo. We analyzed the CfgExamples.xml to betterunderstand the values that 
+	    were being passed in and how to set up our own functions. We strarted module three 
+	    on Tuesday June 3rd where we read an article on configuration space. We then 
+	    programmed our own motion planning strategy. In this class we implemented functions 
+	    such as ParseXML, Print, Initialize, Run, Finalize, GenerateNode and ConnectNode. 
+	    On Wednesday June 4th we read an article on Sampling based Algorithms such as EST's 
+	    and RRT's. We then began coding our own EST sampling algorithm. Writing it took the 
+	    rest of Wednesday and all of Thursday June 5th. We then spent Friday June 6th figuring 
+	    out ways that we could improve our EST algorithm and make it better. I noticed that a 
+	    lot of the random nodes weren't helpul interms of quickly finding a path so I used a 
+	    function that would "randomly" find nodes that were closer to the goal configuration 
+	    based on its topological distance. I used topological distance instead of euclidean 
+	    to account for obstacles. Next week we are going to finish the crash course and get 
+	    started on our research projects. 
+	
+	     Monday - Finished module 2 where we ran and recorded data in PMPL. 
+	     Tuesday - Article on configuration space and coding our own PMPL class MyStrategy. 
+	     Wednesday - Article reading then lunch and then started working on the code MyEST. 
+	     Thursday - Finished working on the code and analyzed the results in vizmo. Continued the readings. 
+	     Friday - Worked on improvbing the EST code. Had a
+	     meeting about the past modules. Worked on our websites.
+  </p> 
+</div></center>
+
+<center><div id="3" class="tabcontent">
+  <h3>Week 3</h3>
+  <p style = "width: 600px;">
+ 	 We just completed our 3rd week and we have decided what projects we are going to be working on. I am going
+  	to be workin on the Meta-Dijkstra's and Interaction Biasing. 
+	<br><br>
+	Monday, June 10<br>
+	We completed module 5 where we had to read a specific motion planning article. I read the OBPRM article which 
+	illustrates the concept of using the obstacles to find a path 	to the destination. This idea is best illustrated
+	as having to navigate through a pitch black room and grabbing a piece of furniture to work around it and get to 
+	the light swit	ch. We then read Diane's and James's articles. Diane's article discussed protein binding 
+	and James's article discussed multi robot task planning. 
+	<br><br>
+	Tuesday, June 11<br>
+	We continued reading the grad students's articles and annotating them. We ran our improved EST code against
+	different environments to see if they would work in more complicated settings. We then had a meeting with the 
+	entire team about the possible projects that we might be working on. The six potential projects were Multi Agent 
+	Task Planning, Interaction Biasing, Meta-Dijkstra's, Annotated Skeleton with Energy Bias, Tunnel Analysis,
+	and Multi Robot Motion Planning. I am going to be focusing on Meta-Dijkstra's and Interaction Biasing. 
+	<br><br>
+	Wednesday, June 12<br>
+	We spent the morning reading the write ups on the research project and deciding which ones we wanted to be a part
+	of. That afternoon we had a lunch with the REU program where grad students and faculty had a Q&A about grad 
+	school and masters programs. I spent the rest of the day working with the Coast environment files and creating certain
+	environments in vizmo. 
+	<br><br>
+	Thursday, June 13 <br>
+	I spent the day looking up articles on Dijkstra's algorithm and finding improved and altered Dijkstra's algorithms.
+	The aspect I found interesting is that all of the algorithms had the same basic skeleton. I imagine when we implement
+	our method it is going to be altering the base of Dijkstra's algorithm. I also began looking at biasing articles and 
+	coming up with various experiments. One of the experiments I imagine running is testing whether or not the machine is
+	able to override a bias if it is critical to complete a task. I then downloaded the IT zip file and looked
+	at the code in the TMPLibrary. 
+	<br><br>
+	Friday, June 14<br>
+	I continued to look up Dijkstra's articles and analyze the algorithm that the grad students implemented. It is going to
+	be important to understand it because it is going to be our job to implement Yen's algorithm using Dijkstra's method. I
+	then spent the rest of the day reading articles on Yen's algorithm and developing pseudo code for the method. The method
+	is going to involve changing the weights of given edges and re running Dijkstra's method with the changed weights in order
+	to find various paths. 
+	<br>
+	Next week I am going to start implementing Yen's algorithm into Dijkstra's method and continue coming up with experiments for the implementation bias.
+	<br><br>
+
+  <p> Monday - Morning, read the OBPRM article and answered module 5 questions. <br>
+  Read the grad students articles and annotated them. <br>
+  Tuesday - Read the grad students article on proteins. Lunch. Ran our EST code against different paths and 
+  wrote our websites. We then had a meeting to discuss the projects that we might work on.<br>
+  Wednesday - We spend the morning reading the research paper write ups that the grad students wrote. <br>
+  We then had a lunch <br> meeting where we had a Q and A about grad school. <br> 
+  Then spent the rest of the afternoon working with the coast files and creating an environment in vizmo. <br>
+  Thursday - Read and researched articles on Dijkstra's. Downloaded the IT files and began looking at the code in <br>
+  the TMP library. All of the Dijkstra's articles I read are all just modificiations of the original Dijkstra's <br> 
+  algorithm. The concept that we are using is sub graphs and trying to find a graph based off of weight <br>
+  constaints. What if the most idea weight path is in between restrictions (the weight is 5 and it can't be <br>
+  between 4 and 6), then we need to find an alternate path. This is where the idea of the subgraphs comes in. <br>
+  Friday - Got familiar with the Dijkstras code in home/lucasmf2/PMPL/pmpl/src/Utilities/SSSP.h because we are <br>
+  going to have to use this for the Yens algorithm. I then figured out Yen's algorithm and started writing pseudocode. <br>
+  </p>
+	</div></center>
+	<center>
+<div id="4" class="tabcontent">
+  <h3>Week 4</h3>
+  <p style = "width: 600px;">
+  I am working on the Meta-Dijkstra's and Interaction Bias projects. I spent the week reading up on Yen's algorithm and
+  creating my own environments.
+  <br><br>
+
+  Monday, June 17 - Tuesday, June 18 <br>
+  I spent two days reading about Yen's algorithm and writing pseudo code. Yen's algorithm is used to find the k shortest
+  paths using Dijkstra's method. Felipe and I have been collaborating on different ideas on how to implement Yen's and what 
+  exactly it's doing. I also started looking at the XML files for the different environments and how to create interaction
+  templates for the motion plans. 
+  <br><br>
+  Wednesday, June 19<br>
+  I spent the entire day working with the XML files and creating different environments. I have started creating smaller 
+  environments before making bigger ones. I am using the environments in the IT/src/Examples/envs/MultiRobot as templates
+  for creating various terrain. 
+  <br><br>
+  Thursday, June 20<br>
+  I spent the morning working on my environments before going to the Ethics in Research talk at the Loomis lab. I spent the 
+  rest of the afternoon creating my small environments. These all include interaction between three robots, two on land and
+  one on a lake. Bias will be used to navigate around a series of obstacles to avoid the interaction with the water robot. 
+  <br><br>
+  Friday, June 21<br>
+  I spent the entire day creating a large environment (50x100) that shows how we can navigate around complicated terrain. 
+  The way that the environment is designed is that if a land robot performs an interaction with a water robot it will result
+  in many narrow passages but if it initially takes a longer path by itself it will get to the goal configuration with ease. 
+  <br><br>
+  The idea behind all of these environments is that there are multiple paths to take and we want to put forward a bias to take
+  the most ideal route whether it is because of a shortage of fuel or to avoid difficult terrain. All of the environments are
+  built so that there is a path that they will take and a different path that they can take and we are going to impose bias to 
+  take the path that they aren't taking. 
+  <br><br>
+  Next week I am going to construct more environments and program this bias in addition to working with Felipe on Dijkstra's
+  and Yen's algorithm. 
+  <br><br>
+
+	Monday - Read more on yen's algo. Started writing pseudo code for it. Started implementing interaction templates into the environments. <br>
+	Started desiging my own environments (one's with hills and craters).
+	Tuesday - Worked with the XML files in the envs file to better understand how to create environments. Talked through some stuff with <br>
+	felipe in terms of the functionality of Yen's algorithm. Once it gets to a point where all the nodes have been iterated over a second <br>
+	pass is done and more of the edges are turned into infinty in order to take different alternate paths. <br>
+	Wednesday - Spent all day working with the XML files and implementing different environments and different paths. Started writing my <br>
+	own envrionments and my own paths. <br> 
+ 	Thursday - Spent all day creating environments and different test cases for paths. Went to the Ethics in research talk. They talked <br>
+	about the experiment where the doctor told the people to shock the person on the other side of the wall and everyone obeyed even though <br>
+	they knew it was wrong. It was a very good very interesting talk. Spent the rest of the day making small environments.  <br>
+	Friday - Created a huge maze environment.  
+  </p>
+</div></center>
+
+<div id="5" class="tabcontent">
+  <h3>Week 5</h3>
+  <p>This is the third week.</p>
+</div>
+
+<div id="6" class="tabcontent">
+  <h3>Week 6</h3>
+  <p>This is the sixth week.</p>
+</div>
+
+<div id="7" class="tabcontent">
+  <h3>Week 7</h3>
+  <p>This is the seventh week.</p>
+</div>
+
+<div id="8" class="tabcontent">
+  <h3>Week 8</h3>
+  <p>This is the eight week.</p>
+</div>
+
+<div id="9" class="tabcontent">
+  <h3>Week 9</h3>
+  <p>This is the ninth week.</p>
+</div>
+
+<div id="10" class="tabcontent">
+  <h3>Week 10</h3>
+  <p>This is the tenth week.</p>
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click()
+</script>
+
+</body>
+</html> 
+
