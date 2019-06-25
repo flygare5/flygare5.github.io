@@ -40,11 +40,11 @@ div.scrollmenu a:hover {
 	<center><img src = "http://uihistories.library.illinois.edu/virtualtour/engineering/siebel/39893_l.jpg" 
 		     alt = "Siebel Center" style = "width:auto">
 </picture> </center>
-
+<!--
 <center><h3 id = "About" style = "font-size: 40px;"> About me: </h3></center>
 
 <center><p style = "width: 700px; font-size: 30px"> This is a test to check if the width of the paragraph is going to be correct. This is going to be a paragraph about me and about to program. </p> </center>
-
+-->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -100,13 +100,14 @@ body {font-family: Arial;}
 	I have been working on creating and testing different environments for interaction biasing. 
 	Interaction biasing is the process of influencing a robot to take different paths depending on external factors.
 	Robots have the ability to interact with each other and I am writing test cases and creating environments that show that we have the ability to program a robot
-	to operate around these interactions. For example, if the payload is delicate and shouldn't be moved around a lot then interactions would want to be avoided.
-	We are able to do this by changing the weight of certain edges in the road map to prevent a robot from going in that direction.
-	The various environments that I have created are designed in such a way that having an interaction between two robots is most ideal.
-	But there are alternate routes in the environment that don't require those interactions that we are going to bias a robot into taking.<br><br>
-
-	My objective is to create environments that show that the bias causes a robot to take a more difficult path when 
-	the original interaction would have been more direct. <br></center>
+	to operate around these interactions. For example, if the payload is delicate and shouldn't be moved around a lot then interactions would want to be avoided. 
+	<br>
+	The two types of environments that will be observed and ones where the interaction is optional and required.
+	<br>
+	When the interaction is optional, we need to demonstrate that we can operate around the interaction. When the interaction is required, we need to
+	demonstrate that it will perform the interaction even when there is bias away from it.
+	<br><br>
+	My objective is to create life like environments that show that programming bias has the ability to influence a robots path. <br></center>
 
 <center><a href ="https://raw.githubusercontent.com/flygare5/flygare5.github.io/master/MyBasicEnvrionment.png">MyBasicEnvironment</a>  </center>
 <center><p><a href = "https://raw.githubusercontent.com/flygare5/flygare5.github.io/master/MyLargeMaze.png">MyLargeMaze</a>  </p></center>
